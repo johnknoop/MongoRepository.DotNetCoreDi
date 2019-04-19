@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Authors>John Knoop</Authors>
+		<Company>John Knoop</Company>
+		<Product>JohnKnoop.MongoRepository.DotNetCoreDi</Product>
+		<Description>Adds MongoRepository as a registered service with the .NET Core dependency resolver</Description>
+		<PackageProjectUrl>https://github.com/johnknoop/MongoRepository.DotNetCoreDi</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/johnknoop/MongoRepository.DotNetCoreDi</RepositoryUrl>
+		<PackageTags>MongoDB DependencyInjection DotnetCore</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="JohnKnoop.MongoRepository" Version="1.4.0" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+	</ItemGroup>
+
+</Project>
